@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors())
 const connectDB = async () => {
     try {
-      await mongoose.connect("mongodb+srv://atishshinde00001:Atish40151%40@cluster0.xoufs.mongodb.net/Expense_Tracker?retryWrites=true&w=majority", {
+      await mongoose.connect("Paste_Your_URL", {
         useNewUrlParser: true,
         useUnifiedTopology: true
       });
